@@ -1,1 +1,1 @@
-# my-python-script
+# Just a simple python scripts

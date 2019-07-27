@@ -20,3 +20,6 @@ for (name, sequence) in dic.items():
     Total_len = len(sequence)
     GC_content = format((float(Total_GC)/float(Total_len)*100),'.2f')
     GC_content_file.write(geneID+"\t"+str(Total_GC)+"\t"+str(Total_len)+"\t"+str(GC_content)+"%"+"\n")
+    
+fasta_file.close()
+GC_content_file.close()

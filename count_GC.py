@@ -18,5 +18,5 @@ for (name, sequence) in dic.items():
     geneID = name.strip().strip('>')
     Total_GC = sequence.count('G')+sequence.count('g')+sequence.count('C')+sequence.count('c')
     Total_len = len(sequence)
-    GC_content = format(float(Total_GC)/float(Total_len),'.2f')
+    GC_content = format((float(Total_GC)/float(Total_len)*100),'.2f')
     GC_content_file.write(geneID+"\t"+str(Total_GC)+"\t"+str(Total_len)+"\t"+str(GC_content)+"%"+"\n")

@@ -1,4 +1,5 @@
 '''This script from gene list get fasta sequence'''
+# Usage: python getfasta.py database_fasta_file geneID_list output_fasta_file
 
 import sys
 dic, name, sequence = {},'', []

@@ -1,3 +1,6 @@
+#__str__面向用户字符串输出，可以print打印输出
+#__repr__面向程序员输出，可以直接输出显示
+
 import time as t
 
 class MyTime():

@@ -1,5 +1,6 @@
 #urlopen(url, data, head),url:需要打开的网址;data:Post提交的数据;head:隐藏python代码,防治被kill
 #json.loads:将已编码的JSON字符串解码为Python对象
+
 import urllib.request
 import urllib.parse
 import json

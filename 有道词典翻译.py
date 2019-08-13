@@ -1,4 +1,4 @@
-#urlopen(url, data, head),url:需要打开的网址;data:Post提交的数据;head:隐藏python代码,防治被kill
+#urlopen(url, data, head),url:需要打开的网址;data:Post提交的数据;head:隐藏python代码,防止被kill
 #json.loads:将已编码的JSON字符串解码为Python对象
 #修改header两种方法
 #第一种:通过Request的headers参数修改

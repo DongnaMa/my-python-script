@@ -1,1 +1,1 @@
-# Just simple python scripts
+# Just simple scripts for training

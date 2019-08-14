@@ -43,6 +43,5 @@ def download_animal(folder='so_cute', pages=3):
         img_address = find_imgs(page_url)
         save_imgs(folder, img_address)
 
-
 if __name__ == '__main__':
     download_animal()
